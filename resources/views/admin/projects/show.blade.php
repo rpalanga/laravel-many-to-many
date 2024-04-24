@@ -10,7 +10,7 @@
         <h5 class="card-title text-warning ">{{$project->name}}</h5>
         <p class="card-text">{{$project->description}}</p>
         <p class="card-text">{{$project->link_repo}}</p>
-        <p class="card-text">{{$project->tech}}</p>
+        <!-- <p class="card-text">{{$project->tech}}</p> -->
         <p class="card-text">{{$project->date_release}}</p>
         <p class="card-text">{{$project->type?->title}}</p>
 

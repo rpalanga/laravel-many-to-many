@@ -50,7 +50,7 @@
     @enderror
 
   </div>
-  <div class="mb-3">
+  <!-- <div class="mb-3">
     <label for="tech" class="form-label">Linguaggi o Tecnologie Utilizzate</label>
     <input type="text" class="form-control @error('tech') is-invalid @enderror" id="tech" name="tech" value="{{old('tech')}}">
     @error('tech')
@@ -59,7 +59,7 @@
       </div>
     @enderror
     
-  </div>
+  </div> -->
 
   <div class="mb-3">
     <label for="date_release" class="form-label">Data di Rilascio</label>
