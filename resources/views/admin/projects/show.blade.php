@@ -10,7 +10,9 @@
         <h5 class="card-title text-warning ">{{$project->name}}</h5>
         <p class="card-text">{{$project->description}}</p>
         <p class="card-text">{{$project->link_repo}}</p>
-        <!-- <p class="card-text">{{$project->tech}}</p> -->
+        @foreach($project->technologies as $technology)
+        <p class="card-text">{{$technology->title}}</p>
+        @endforeach
         <p class="card-text">{{$project->date_release}}</p>
         <p class="card-text">{{$project->type?->title}}</p>
 

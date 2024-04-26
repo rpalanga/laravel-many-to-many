@@ -26,7 +26,7 @@ class StoreProjectRequest extends FormRequest
             "image"=> "file",
             "description"=> "required|max:5000",
             "link_repo"=> "required|max:1000",
-            "tech"=> "required|max:2000",
+            // "tech"=> "required|max:2000",
             "date_release"=> "required|date|max:10",
             "type_id"=> "required",
             
@@ -47,7 +47,7 @@ class StoreProjectRequest extends FormRequest
             'image'=> 'Immagine',
             'description'=>'Descrizione',
             'link_repo'=> 'Link del Documento',
-            'tech'=> 'Linguaggi o Tecnologie',
+            // 'tech'=> 'Linguaggi o Tecnologie',
             'date_release'=> 'Data di Pubblicazione',
             'type_id'=> 'Tipologia',
         ] ;
